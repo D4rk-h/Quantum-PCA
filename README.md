@@ -42,17 +42,6 @@ This research is focused on rigorous experimental validation. Contributions shou
 - Reproducible experimental setups
 - Clear documentation of assumptions and limitations
 
-## Citation
-
-```bibtex
-@misc{qpca_research_2024,
-  title={Quantum Principal Component Analysis: A Systematic Implementation Study},
-  author={Pablo Herrera},
-  year={2025},
-  url={https://github.com/D4rk-h/Quantum-PCA}
-}
-```
-
 ## License
 
 Apache 2.0 - <a href='LICENSE'>See LICENSE file for details</a>

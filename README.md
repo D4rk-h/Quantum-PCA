@@ -1,38 +1,64 @@
-# Quantum Principal Component Analysis (QPCA) Research
+# Beyond the Hype: Empirical Analysis of Quantum Machine Learning Performance and Scalability
 
-A comprehensive implementation and benchmarking study comparing quantum and classical approaches to Principal Component Analysis.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-yellow.svg)](https://www.python.org/downloads/)
 
-## Overview
+A comprehensive open-source implementation and benchmarking study comparing quantum and classical approaches to machine learning algorithms, with special focus on clustering methods and scalability analysis.
 
-This repository contains experimental implementations of quantum PCA algorithms alongside classical baselines to systematically evaluate when quantum approaches might offer practical advantages. The focus is on rigorous performance analysis rather than theoretical claims.
+## Project Overview
 
-## Algorithms Implemented
+This research project aims to provide **rigorous, reproducible empirical analysis** of quantum machine learning algorithms compared to their classical counterparts. We go beyond theoretical promises to deliver practical insights about when, where, and why quantum ML might offer advantages.
 
-### Classical Methods
-- Standard PCA (SVD-based)
-- Randomized PCA
-- Incremental PCA
-- Kernel PCA
+### Key Research Questions
+- **Where does quantum advantage actually emerge** in machine learning tasks?
+- **How do quantum algorithms scale** with problem size, dataset complexity, and noise?
+- **What are the practical crossover points** between quantum and classical performance?
+- **How effective are quantum clustering algorithms** compared to classical methods?
 
-### Quantum Methods  
-- VQE-based QPCA
-- QAOA-based QPCA
-- Hybrid classical-quantum approaches
-- Quantum-inspired classical variants
+### What Makes This Different
+- **No hype, just data**: Rigorous statistical analysis with proper error reporting
+- **Open science**: All code, data, and results freely available
+- **Reproducible**: Every experiment can be replicated and verified
+- **Comprehensive**: Covers multiple algorithms, datasets, and metrics
+- **Community-driven**: Built for and with the open-source community
 
-## Key Features
+## Research Scope
 
-- **Systematic Benchmarking**: Fair comparison framework for quantum vs classical methods
-- **Real Hardware Integration**: Support for IBM Quantum devices with noise characterization
-- **Reproducible Experiments**: All results include statistical analysis and error bars
-- **Scalability Analysis**: Performance tracking across different problem sizes
-- **Noise Simulation**: Realistic noise models for quantum algorithm evaluation
+### Algorithms Under Investigation
+
+**Quantum Machine Learning:**
+- Variational Quantum Classifiers (VQC)
+- Quantum Kernel Methods
+- Quantum Neural Networks
+- Variational Quantum Clustering
+- Quantum k-means
+- Quantum Spectral Clustering
+
+**Classical Baselines:**
+- Support Vector Machines
+- Random Forests
+- Neural Networks
+- k-means Clustering
+- Spectral Clustering
+- Hierarchical Clustering
+
+### Datasets & Benchmarks
+- **Synthetic datasets** for controlled experiments
+- **Standard ML benchmarks** (Iris, Wine, Breast Cancer, MNIST subset)
+- **Real-world applications** (customer segmentation, gene expression)
+- **Scalability tests** across multiple dataset sizes and dimensions
+
+### Performance Metrics
+- **Accuracy & Quality**: Classification accuracy, clustering silhouette scores
+- **Scalability**: Training time vs dataset size, memory usage
+- **Robustness**: Performance under noise and limited data
+- **Resource Efficiency**: Gate count, circuit depth, classical preprocessing
 
 ### Requirements
 - Python 3.8+
 - Qiskit 0.45+
 - scikit-learn
-- numpy, scipy, matplotlib
+- numpy, scipy, matplotlib, seaborn
 - jupyter (for notebooks)
 
 ## Contributing
